@@ -1,54 +1,64 @@
 <style>
-  body {
-    border: 4px solid black;
+  * {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  .h {
+  table {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; 
+    border-collapse: separate; 
+    
+  }
+
+  h2 {
+    background-color: rgb(0, 0, 0);
     color: white;
   }
-  h1 {
-    background-color: black;
+  .a {
+    color:rgb(149, 149, 170)
   }
-  .button {
-    width: 500px;
+  #price {
+    display: inline-block;
+  }
+  #before {
+    color: grey;
   }
   button {
-    background-color:rgb(16, 140, 228);
-    color:rgb(201, 201, 201);
+    background-color: rgba(44, 98, 223, 0.963);
+    color: white;
+    width: 400px;
     height: 30px;
+    border-radius:2px;
   }
-  .w {
-    color: rgb(169, 172, 175);
-  }
-  .r {
+  .one {
     color: green;
   }
-  .u{
-    color:grey;
+  .two {
+    color: grey;
   }
 </style>
-
 <body>
   <center>
-
-    <table border="4" cellpadding="20" cellspacing="20">
-            <h1 class="h">ShopEasy</h1>
+    <table border="1" border-radius:8px>
       <tr>
         <th>
+          <h2>ShopEasy</h2>
           <img
-            src="https://tse3.mm.bing.net/th/id/OIP.laC5JJgmrKx2piwWZFVFPgHaHa?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
+            src="https://tse1.mm.bing.net/th/id/OIP.wpaeVGAt-CGh6OWNlpmFzwHaJQ?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3"
             width="300px"
             height="300px"
           />
-
           <div align="left">
-            <h2><b>Classic Cotton T‑Shirt</b></h2>
-            <p class="u">Soft,breathable cotton, Regular fit.Available in multiple colors.</p>
-            <p>
-              <span class="r">&#8377;799</span>
-              <span class="w"><del>&#8377;1,199</del></span>
+            <h3>Classic Cotton T-Shirt</h3>
+            <p class="a">
+              Soft,breathable cotton,Regular fit.Available in multiple colors.
             </p>
-            <button class="button">Add to cart</button>
+            <span>
+              <p id="price" class="one">&#8377;799</p>
+              <p id="price" class="two"><del>&#8377;1,199</del></p>
+            </span>
           </div>
+          <button>Add to Cart</button>
         </th>
       </tr>
     </table>
