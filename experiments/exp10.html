@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiment10</title>
+    <style>
+        @media(max-width:600px){
+            .laptop{
+                display:none;
+            }
+            .mobile{
+                background-color: black;
+                color:white;
+                display:block;
+                justify-content: space-between;
+                
+            }
+            .container{
+                display:block;
+                flex-direction: row;
+                background-color: rgb(73, 71, 71);
+                color:white;
+                text-align: center;
+            }
+            .navm{
+                display:inline;
+                
+
+            }
+            .container{
+                display:block;
+            }
+            a{
+              text-decoration: none; 
+              color:white; 
+            }
+            .cont{
+                display:flex;
+                justify-content:space-between;
+            }
+
+        }
+        @media(min-width:600px){
+            .mobile{
+                display:none;
+            }
+            .laptop{
+                background-color: black;
+                color:white;
+                padding:20px;
+                display:flex;
+                height:30px;
+                justify-content: space-between;
+                align-content:center;
+                margin:0px;
+                
+            }
+            
+            
+            a{
+              text-decoration: none; 
+              color:white; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="laptop">
+        <div class="nav" style="display:inline;">
+            <h3>Shop Ease</h3>
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>&nbsp;&nbsp;<a href="#">Products</a>&nbsp;&nbsp;<a href="#">Categories</a>&nbsp;&nbsp;<a href="#">Deals</a>&nbsp;&nbsp;<a href="_#">Contact</a>
+        </div>
+        <div class="nav">
+            <p style="display: inline;">Cart &#x1F6D2;</p> <p style="display:inline;">Login</p>
+        </div>
+    </nav>
+    <nav class="mobile">
+        <div class="cont">
+       <div class="navm">ShopEase</div>
+       <div class="navm">&#9776;</div>
+       <div class="navm">cart &#x1F6D2;Login</div>
+       </div>
+       <div class="container">
+       <div><a  href="_#">Home</a></div>
+       <div><a href="_#">Products</a></div>
+       <div><a href="_#">Categories</a></div>
+       <div><a href="_#">Deals</a></div>
+       <div><a href="_#">Contacts</a></div>
+       </div>
+    </nav>
+    <H1>Welcome to ShopEase!</H1>
+    <p>Your one-stop destination for all shopping needs.</p>
+</body>
+</html>
