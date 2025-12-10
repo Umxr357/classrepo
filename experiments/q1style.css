@@ -1,6 +1,6 @@
-header {
-  background-image: url('https://tse1.mm.bing.net/th/id/OIP.yIlnLskXUqqDEc9MySL_DwHaEo?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3');
-  height: 150px;
-  color: red;
-  text-align: center;
+.container{
+  display:grid;
+  grid-template-columns:auto auto auto;
+  background-color:dodgerblue;
+  padding:10px;
 }
