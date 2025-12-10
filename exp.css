@@ -1,0 +1,63 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page centering */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #ffffff;
+}
+
+/* Outer box (black border in screenshot) */
+.wrapper {
+  width: 80%;
+  margin: 60px auto;
+  padding: 40px 20px;
+  border: 2px solid #000;
+}
+
+/* Flex container for 3 cards */
+.card-container {
+  display: flex;
+  justify-content: center;      /* center horizontally */
+  align-items: center;
+  gap: 40px;                    /* space between cards */
+}
+
+/* Individual card */
+.card {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  padding: 40px 20px 24px;
+  text-align: center;
+}
+
+/* Circle with initials */
+.card .avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: #0d6efd;          /* blue circle */
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Name */
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* Other text */
+.card p {
